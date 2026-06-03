@@ -6,9 +6,9 @@
 
 ## Why this project
 
-In March 2026, the FCA announced an expansion of its Supercharged Sandbox, giving firms access to high-quality synthetic data so AI-driven financial products can be safely tested ([FCA, March 2026](https://www.fca.org.uk/news/news-stories/fca-sets-out-next-phase-smarter-more-effective-regulation)). This builds on three years of work by the FCA's Synthetic Data Expert Group, which has published two major reports - the most recent in August 2025 - on how UK financial services should generate, govern, and use synthetic data ([FCA, August 2025](https://www.fca.org.uk/publications/corporate-documents/synthetic-data-models-financial-services-governance-considerations)).
+Synthetic data has been quietly maturing in UK financial services. The FCA set up its [Synthetic Data Expert Group](https://www.fca.org.uk/publications/corporate-documents/report-using-synthetic-data-financial-services) in March 2023, has since published two governance reports (the most recent in [August 2025](https://www.fca.org.uk/publications/corporate-documents/synthetic-data-models-financial-services-governance-considerations)), and built a dedicated synthetic dataset to support [Authorised Push Payment fraud detection](https://www.fca.org.uk/firms/digital-sandbox/authorised-push-payment-synthetic-data). In its [2026/27 annual work programme](https://www.fca.org.uk/news/news-stories/fca-sets-out-next-phase-smarter-more-effective-regulation), the FCA confirmed the Supercharged Sandbox will expand to give firms access to high-quality synthetic data for testing AI-driven financial products.
 
-The reason this matters: real customer data in banking is largely locked behind GDPR, internal data governance, and regulatory scrutiny. Analysts often cannot use it for exploratory work, model prototyping, or anything that needs to be shared externally. Synthetic data - AI-generated data designed to mimic the statistical patterns of real data - is one of the practical workarounds the industry is actively investing in. The FCA has even built synthetic datasets of its own, including one to support detection of Authorised Push Payment fraud, which cost UK consumers £485 million in 2022 alone ([FCA APP fraud dataset](https://www.fca.org.uk/firms/digital-sandbox/authorised-push-payment-synthetic-data)).
+The reason this matters for analysts: real customer data in banking is largely locked behind GDPR, internal data governance, and regulatory scrutiny. It often cannot be used for exploratory work, model prototyping, or anything shared externally. Synthetic data is one of the practical workarounds the industry is actively investing in - the APP fraud dataset alone targets a category that cost UK consumers £485 million in 2022.
 
 This project sits in that conversation.
 
@@ -44,20 +44,19 @@ Techniques likely to feature across the project: time series methods (ARIMA fami
 
 ## Project stages
 
-- **Phase 1** - Data generation and exploratory analysis
-- **Phase 2** - Data preprocessing and feature engineering
-- **Phase 3** - Revenue forecasting (ARIMA, Prophet)
-- **Phase 4** - Churn modelling and risk stratification
-- **Phase 5** - Profitability, RFM, and cohort analysis
-- **Phase 6** - Executive dashboard and final reporting
-- **Phase 7** - Reflection: how realistic was the synthetic data?
+**Phase 1** - Data generation and exploratory analysis  
+**Phase 2** - Data preprocessing and feature engineering  
+**Phase 3** - Revenue forecasting  
+**Phase 4** - Churn modelling and risk stratification  
+**Phase 5** - Profitability, RFM, and cohort analysis  
+**Phase 6** - Executive dashboard and final reporting  
+**Phase 7** - Reflection: how realistic was the synthetic data?  
 
 Each phase will be committed as it completes, with notes on what worked, what did not, and what I would change.
-
----
 
 ## Further reading on synthetic data in UK financial services
 
 - [FCA - Using Synthetic Data in Financial Services (2024 report)](https://www.fca.org.uk/publications/corporate-documents/report-using-synthetic-data-financial-services)
 - [FCA - Generating and Using Synthetic Data: Governance Considerations (August 2025)](https://www.fca.org.uk/publications/corporate-documents/synthetic-data-models-financial-services-governance-considerations)
 - [FCA - Authorised Push Payment fraud synthetic dataset](https://www.fca.org.uk/firms/digital-sandbox/authorised-push-payment-synthetic-data)
+- [FCA - Annual work programme 2026/27](https://www.fca.org.uk/news/news-stories/fca-sets-out-next-phase-smarter-more-effective-regulation)
